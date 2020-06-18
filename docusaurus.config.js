@@ -1,3 +1,5 @@
+const path = require('path')
+
 module.exports = {
   title: 'My Site',
   tagline: 'The tagline of my site',
@@ -102,4 +104,5 @@ module.exports = {
       },
     ],
   ],
+  plugins: [path.resolve(__dirname, 'use-file-loader-plugin/plugin.js')]
 };
