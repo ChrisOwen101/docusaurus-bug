@@ -15611,9 +15611,9 @@ var react = __webpack_require__(0);
 var esm = __webpack_require__(29);
 
 // CONCATENATED MODULE: ./docs/bug.png
-/* harmony default export */ var bug = (__webpack_require__.p + "28f1e75ba320babeff0ec099273f326f.png");
+/* harmony default export */ var bug = (__webpack_require__.p + "docs/bug.png");
 // CONCATENATED MODULE: ./docs/bug.mdx
-const frontMatter={};const metadata={"id":"bug","title":"bug","description":"Hello! You should see a bug (and you will on the dev servver, but not with a production build!):","source":"@site/docs\\bug.mdx","permalink":"/docs/bug","editUrl":"https://github.com/facebook/docusaurus/edit/master/website/docs/bug.mdx","sidebar":"someSidebar"};/* @jsx mdx */const rightToc=[];const makeShortcode=name=>function MDXDefaultShortcode(props){console.warn("Component "+name+" was not imported, exported, or provided by MDXProvider as global scope");return Object(esm["b" /* mdx */])("div",props);};const layoutProps={rightToc};const MDXLayout="wrapper";function MDXContent({components,...props}){return Object(esm["b" /* mdx */])(MDXLayout,Object(esm_extends["a" /* default */])({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),Object(esm["b" /* mdx */])("p",null,`Hello! You should see a bug (and you will on the dev servver, but not with a production build!):`),Object(esm["b" /* mdx */])("img",{src:bug}));};MDXContent.isMDXComponent=true;
+const frontMatter={};const metadata={"id":"bug","title":"bug","description":"Hello! You should see a bug:","source":"@site/docs\\bug.mdx","permalink":"/docs/bug","editUrl":"https://github.com/facebook/docusaurus/edit/master/website/docs/bug.mdx","sidebar":"someSidebar"};/* @jsx mdx */const rightToc=[];const makeShortcode=name=>function MDXDefaultShortcode(props){console.warn("Component "+name+" was not imported, exported, or provided by MDXProvider as global scope");return Object(esm["b" /* mdx */])("div",props);};const layoutProps={rightToc};const MDXLayout="wrapper";function MDXContent({components,...props}){return Object(esm["b" /* mdx */])(MDXLayout,Object(esm_extends["a" /* default */])({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),Object(esm["b" /* mdx */])("p",null,`Hello! You should see a bug:`),Object(esm["b" /* mdx */])("img",{src:bug}));};MDXContent.isMDXComponent=true;
 
 /***/ }),
 /* 123 */

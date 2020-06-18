@@ -1,5 +1,5 @@
 const DEFAULT_OPTIONS = {
-  // Some defaults.
+
 };
 
 // A JavaScript function that returns an object.
@@ -15,7 +15,7 @@ module.exports = function (context, opts) {
     // If you're writing your own local plugin, you will want it to
     // be unique in order not to potentially conflict with imported plugins.
     // A good way will be to add your own project name within.
-    name: 'docusaurus-file-loader-plugin',
+    name: 'use-file-loader-plugin',
 
     configureWebpack(config, isServer) {
       return {
@@ -26,6 +26,9 @@ module.exports = function (context, opts) {
                 use: [
                   {
                     loader: 'file-loader',
+                    options: {
+                      name: "[path][name].[ext]"
+                    }
                   },
                 ],
               },
